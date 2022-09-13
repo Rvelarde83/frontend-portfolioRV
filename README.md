@@ -1,12 +1,18 @@
-https://www.youtube.com/watch?v=hYv6BM2fWd8&t=61s
+# Portfolio for RV
 
-projects
-size responsive they all look cool
-contact form?
-lets connect
+This site features the work and contact information of Ramon Velarde. It's a React frontend website that generates Mailchimp subscriptions to Newsletters and has a buil in Contact form, besides animations and styling features.
 
-skills logos?
-change gradient of contact
-buttons?
-banner change
-tab 2 of skills puede ser música
+## Technologies
+
+- JavaScript, React, Animate Css,  Css, Bootstrap, Express, etc.
+
+# Link
+
+https://delicate-marshmallow-eff5bd.netlify.app
+
+# Images of the Site
+
+![](./src/assets/img/New.png)
+![](./src/assets/img/Skills2.png)
+![](./src/assets/img/Projects.png)
+![](./src/assets/img/Contact1.png)
