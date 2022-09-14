@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import Djinstagram from "../assets/img/Djinstagram.png";
 import blackeye from "../assets/img/blackeye.png";
 import thdsite from "../assets/img/thdsite.png";
+import guacamole from "../assets/img/Guacamole.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -29,22 +30,16 @@ export const Projects = () => {
 
       imgUrl: thdsite,
     },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: Djinstagram,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg2,
-    // },
-    // {
-    //   title: "Business Startup",
-    //   description: "Design & Development",
-    //   imgUrl: projImg3,
-    // },
+
   ];
+  const music = [
+    {
+      title: "Guacamole Music",
+      description: "A music portfolio site designed by Ramon with all his music",
+      link: "https://www.guacamolemusic.com/",
+      imgUrl: guacamole,
+    },
+  ]
 
   return (
     <section className="project" id="project">
@@ -87,6 +82,19 @@ export const Projects = () => {
                     <Tab.Pane eventKey="section">
                       <p>Full Stack Developer driven by creativity, passion for adding value and meaningful collaboration.          
                     I believe in technology as a tool to connect people- it has been the core goal of my career, beginning with work in Psychology, twenty years of creating music, and now the opportunity to build platforms and apps to engage, enrich and excite. </p>
+                    </Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                    {
+                          music.map((music, index) => {
+                            return (
+                              <ProjectCard
+                                key={index}
+                                 
+                                {...music}
+                                />
+                            )
+                          })
+                        }
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
                       <p>Full Stack Developer driven by creativity, passion for adding value and meaningful collaboration.          

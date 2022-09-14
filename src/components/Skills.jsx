@@ -48,9 +48,7 @@ export const Skills = () => {
                         <h2>Skills</h2>
                         <p>HTML | JavaScript | CSS | Git | Github | React JS | Angular | Python | Node | Express.js | AWS
 </p>
-                        <h3>Additional Skills</h3>
-                        <p>Bilingual: English (Fluent) & Spanish (Native) ⎸ Collaboration and Leadership ⎸ Logic Pro X ⎸ Pro Tools ⎸ Guitar
-</p>
+                        
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                                 <img src={javascript} alt="Image" />
@@ -87,6 +85,9 @@ export const Skills = () => {
                                
                             </div>
                         </Carousel>
+                        <h3>Additional Skills</h3>
+                        <p>Bilingual: English (Fluent) & Spanish (Native) ⎸ Collaboration and Leadership ⎸ Logic Pro X ⎸ Pro Tools ⎸ Guitar
+</p>
                     </div>
                 </div>
             </div>
