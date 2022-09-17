@@ -60,7 +60,9 @@ export const Banner = () => {
                   <p>Full Stack Developer driven by creativity, passion for adding value and meaningful collaboration.          
                     I believe in technology as a tool to connect people- it has been the core goal of my career, beginning with work in Psychology, twenty years of creating music, and now the opportunity to build platforms and apps to engage, enrich and excite. 
 </p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+<a href="/#connect" id="link">
+                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size= {25} /></button>
+                  </a>
               </div>}
             </TrackVisibility>
           </Col>

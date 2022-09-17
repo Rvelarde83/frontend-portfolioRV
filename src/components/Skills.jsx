@@ -85,8 +85,10 @@ export const Skills = () => {
                                
                             </div>
                         </Carousel>
+                        <br></br>
+
                         <h3>Additional Skills</h3>
-                        <p>Bilingual: English (Fluent) & Spanish (Native) ⎸ Collaboration and Leadership ⎸ Logic Pro X ⎸ Pro Tools ⎸ Guitar
+                        <p>Bilingual: English (Fluent) & Spanish (Native) | Collaboration & Leadership | Logic Pro X | Pro Tools | Guitar
 </p>
                     </div>
                 </div>

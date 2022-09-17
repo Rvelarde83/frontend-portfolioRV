@@ -89,10 +89,17 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
+  background-color: #121212; /* maybe move*/
+  
 }
+
+/* nav.navbar :hover{
+  background-color: #121212;
+
+
+} */
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
 }
 nav.navbar a.navbar-brand {
     width: 9%;
@@ -654,4 +661,10 @@ justify-items: center;
   color: #B8B8B8;
   letter-spacing: 0.5px;
   margin-top: 20px;
+}
+
+
+
+#link{
+  text-decoration: none;
 }
